@@ -12,9 +12,17 @@ pre-requisites:
 gcc hello.c -o hello
 ./hello
 
+# using make
+make hello
+./hello
+
+make func
+./func
 ```
 
 ## links
 * https://developer.fedoraproject.org/tech/languages/c/c_installation.html
 * https://clang.llvm.org/
 * https://marketplace.visualstudio.com/items?itemName=franneck94.c-cpp-runner
+* http://nuclear.mutantstargoat.com/articles/make/
+* https://makefiletutorial.com/
