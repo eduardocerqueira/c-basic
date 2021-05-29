@@ -2,7 +2,7 @@
 
 CC := gcc
 LDFLAGS =
-SRC :=$(wildcard *.c)
+SRC := $(shell find . -name '*.c')
 OBJ = $(SRC:.c=.o)
 
 .PHONY : help
